@@ -1,0 +1,2290 @@
+Array
+(
+    [object] => page
+    [entry] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 598038497055540
+                    [time] => 1483717596397
+                    [messaging] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [sender] => Array
+                                        (
+                                            [id] => 1502549926429458
+                                        )
+
+                                    [recipient] => Array
+                                        (
+                                            [id] => 598038497055540
+                                        )
+
+                                    [timestamp] => 1483717596395
+                                    [read] => Array
+                                        (
+                                            [watermark] => 1483717589915
+                                            [seq] => 0
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)
+Array
+(
+    [object] => page
+    [entry] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 598038497055540
+                    [time] => 1483717596506
+                    [messaging] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [sender] => Array
+                                        (
+                                            [id] => 1502549926429458
+                                        )
+
+                                    [recipient] => Array
+                                        (
+                                            [id] => 598038497055540
+                                        )
+
+                                    [timestamp] => 1483717596449
+                                    [message] => Array
+                                        (
+                                            [quick_reply] => Array
+                                                (
+                                                    [payload] => Show_Products
+                                                )
+
+                                            [mid] => mid.1483717596449:780a33bd34
+                                            [seq] => 312641
+                                            [text] => Show Products
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)
+Array
+(
+    [recipient_id] => 1502549926429458
+    [message_id] => mid.1483717598574:236343e758
+)
+Array
+(
+    [object] => page
+    [entry] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 598038497055540
+                    [time] => 1483717598945
+                    [messaging] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [sender] => Array
+                                        (
+                                            [id] => 598038497055540
+                                        )
+
+                                    [recipient] => Array
+                                        (
+                                            [id] => 1502549926429458
+                                        )
+
+                                    [timestamp] => 1483717598574
+                                    [message] => Array
+                                        (
+                                            [is_echo] => 1
+                                            [quick_reply] => Array
+                                                (
+                                                    [payload] => 
+                                                )
+
+                                            [app_id] => 1931471583747607
+                                            [mid] => mid.1483717598574:236343e758
+                                            [seq] => 312642
+                                            [attachments] => Array
+                                                (
+                                                    [0] => Array
+                                                        (
+                                                            [title] => Bucaneer Tristana - RM 25, Guerilla Tristana - RM 15, Classic Tristana - FREE, Riot Girl Tristana - RM 10
+                                                            [url] => http://www.facebook.com/l.php?u=http%3A%2F%2FBotAhead.com%2F&h=ATP5EriX6rzrmTGBpFeGHYMreDIEABM3PSEjOrHPpAlcO7MI6MJY6bCNnRmM8PFnKb4ChtnIY0uz4zzWqdRuMCr4g7kDTkUPE11fn4dTDoEuz8AZVRxjsCUtkQaryqKYzXwLAp4&s=1&enc=AZO9OsjBZY68xdd8FFYcIehMcvvVpmgj7tVUXW547SitNiRXAqTMET5Aa3YCP6-OIZ1t1SpNnUnyVDb6Ji9cLmWx
+                                                            [type] => template
+                                                            [payload] => Array
+                                                                (
+                                                                    [template_type] => generic
+                                                                    [sharable] => 
+                                                                    [elements] => Array
+                                                                        (
+                                                                            [0] => Array
+                                                                                (
+                                                                                    [title] => Bucaneer Tristana - RM 25
+                                                                                    [item_url] => http://BotAhead.com/
+                                                                                    [image_url] => https://d16205d2.ngrok.io/tutorial/files/i2.jpg
+                                                                                    [subtitle] => Tristana with canon , who will not love it ?
+                                                                                    [buttons] => Array
+                                                                                        (
+                                                                                            [0] => Array
+                                                                                                (
+                                                                                                    [type] => postback
+                                                                                                    [title] => Add To Cart
+                                                                                                    [payload] => Add_To_Cart_Product2
+                                                                                                )
+
+                                                                                            [1] => Array
+                                                                                                (
+                                                                                                    [type] => postback
+                                                                                                    [title] => Product Details
+                                                                                                    [payload] => Bot_Order_Save_32
+                                                                                                )
+
+                                                                                            [2] => Array
+                                                                                                (
+                                                                                                    [type] => phone_number
+                                                                                                    [title] => Contact Seller
+                                                                                                    [payload] => +60166260287
+                                                                                                )
+
+                                                                                        )
+
+                                                                                )
+
+                                                                            [1] => Array
+                                                                                (
+                                                                                    [title] => Guerilla Tristana - RM 15
+                                                                                    [item_url] => http://BotAhead.com/
+                                                                                    [image_url] => https://d16205d2.ngrok.io/tutorial/files/i3.jpg
+                                                                                    [subtitle] => Weirdy weird tristana skin , yucks !
+                                                                                    [buttons] => Array
+                                                                                        (
+                                                                                            [0] => Array
+                                                                                                (
+                                                                                                    [type] => postback
+                                                                                                    [title] => Add To Cart
+                                                                                                    [payload] => Add_To_Cart_Product3
+                                                                                                )
+
+                                                                                            [1] => Array
+                                                                                                (
+                                                                                                    [type] => postback
+                                                                                                    [title] => Product Details
+                                                                                                    [payload] => Bot_Order_Save_32
+                                                                                                )
+
+                                                                                            [2] => Array
+                                                                                                (
+                                                                                                    [type] => phone_number
+                                                                                                    [title] => Contact Seller
+                                                                                                    [payload] => +60166260287
+                                                                                                )
+
+                                                                                        )
+
+                                                                                )
+
+                                                                            [2] => Array
+                                                                                (
+                                                                                    [title] => Classic Tristana - FREE
+                                                                                    [item_url] => http://BotAhead.com/
+                                                                                    [image_url] => https://d16205d2.ngrok.io/tutorial/files/i1.jpg
+                                                                                    [subtitle] => The ugliest but classic tristana!
+                                                                                    [buttons] => Array
+                                                                                        (
+                                                                                            [0] => Array
+                                                                                                (
+                                                                                                    [type] => postback
+                                                                                                    [title] => Add To Cart
+                                                                                                    [payload] => Add_To_Cart_Product1
+                                                                                                )
+
+                                                                                            [1] => Array
+                                                                                                (
+                                                                                                    [type] => postback
+                                                                                                    [title] => Product Details
+                                                                                                    [payload] => Bot_Order_Save_32
+                                                                                                )
+
+                                                                                            [2] => Array
+                                                                                                (
+                                                                                                    [type] => phone_number
+                                                                                                    [title] => Contact Seller
+                                                                                                    [payload] => +60166260287
+                                                                                                )
+
+                                                                                        )
+
+                                                                                )
+
+                                                                            [3] => Array
+                                                                                (
+                                                                                    [title] => Riot Girl Tristana - RM 10
+                                                                                    [item_url] => http://BotAhead.com/
+                                                                                    [image_url] => https://d16205d2.ngrok.io/tutorial/files/i4.jpg
+                                                                                    [subtitle] => Not much difference from the classic one, but it's a fking female !
+                                                                                    [buttons] => Array
+                                                                                        (
+                                                                                            [0] => Array
+                                                                                                (
+                                                                                                    [type] => postback
+                                                                                                    [title] => Add To Cart
+                                                                                                    [payload] => Add_To_Cart_Product4
+                                                                                                )
+
+                                                                                            [1] => Array
+                                                                                                (
+                                                                                                    [type] => postback
+                                                                                                    [title] => Product Details
+                                                                                                    [payload] => Bot_Order_Save_32
+                                                                                                )
+
+                                                                                            [2] => Array
+                                                                                                (
+                                                                                                    [type] => phone_number
+                                                                                                    [title] => Contact Seller
+                                                                                                    [payload] => +60166260287
+                                                                                                )
+
+                                                                                        )
+
+                                                                                )
+
+                                                                        )
+
+                                                                )
+
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)
+Array
+(
+    [object] => page
+    [entry] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 598038497055540
+                    [time] => 1483717598980
+                    [messaging] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [sender] => Array
+                                        (
+                                            [id] => 1502549926429458
+                                        )
+
+                                    [recipient] => Array
+                                        (
+                                            [id] => 598038497055540
+                                        )
+
+                                    [timestamp] => 1483717598979
+                                    [delivery] => Array
+                                        (
+                                            [mids] => Array
+                                                (
+                                                    [0] => mid.1483717598574:236343e758
+                                                )
+
+                                            [watermark] => 1483717598574
+                                            [seq] => 0
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)
+Array
+(
+    [object] => page
+    [entry] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 598038497055540
+                    [time] => 1483717598995
+                    [messaging] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [sender] => Array
+                                        (
+                                            [id] => 1502549926429458
+                                        )
+
+                                    [recipient] => Array
+                                        (
+                                            [id] => 598038497055540
+                                        )
+
+                                    [timestamp] => 1483717598994
+                                    [delivery] => Array
+                                        (
+                                            [mids] => Array
+                                                (
+                                                    [0] => mid.1483717598574:236343e758
+                                                )
+
+                                            [watermark] => 1483717598574
+                                            [seq] => 0
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)
+Array
+(
+    [object] => page
+    [entry] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 598038497055540
+                    [time] => 1483717602798
+                    [messaging] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [recipient] => Array
+                                        (
+                                            [id] => 598038497055540
+                                        )
+
+                                    [timestamp] => 1483717602798
+                                    [sender] => Array
+                                        (
+                                            [id] => 1502549926429458
+                                        )
+
+                                    [postback] => Array
+                                        (
+                                            [payload] => Add_To_Cart_Product1
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)
+Array
+(
+    [object] => page
+    [entry] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 598038497055540
+                    [time] => 1483717603518
+                    [messaging] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [sender] => Array
+                                        (
+                                            [id] => 598038497055540
+                                        )
+
+                                    [recipient] => Array
+                                        (
+                                            [id] => 1502549926429458
+                                        )
+
+                                    [timestamp] => 1483717603486
+                                    [message] => Array
+                                        (
+                                            [is_echo] => 1
+                                            [app_id] => 1931471583747607
+                                            [mid] => mid.1483717603486:2d721bc751
+                                            [seq] => 312646
+                                            [text] => Product1 has been successfully added to cart
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)
+Array
+(
+    [object] => page
+    [entry] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 598038497055540
+                    [time] => 1483717603835
+                    [messaging] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [sender] => Array
+                                        (
+                                            [id] => 1502549926429458
+                                        )
+
+                                    [recipient] => Array
+                                        (
+                                            [id] => 598038497055540
+                                        )
+
+                                    [timestamp] => 1483717603834
+                                    [delivery] => Array
+                                        (
+                                            [mids] => Array
+                                                (
+                                                    [0] => mid.1483717603486:2d721bc751
+                                                )
+
+                                            [watermark] => 1483717603486
+                                            [seq] => 0
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)
+Array
+(
+    [object] => page
+    [entry] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 598038497055540
+                    [time] => 1483717603872
+                    [messaging] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [sender] => Array
+                                        (
+                                            [id] => 1502549926429458
+                                        )
+
+                                    [recipient] => Array
+                                        (
+                                            [id] => 598038497055540
+                                        )
+
+                                    [timestamp] => 1483717603871
+                                    [delivery] => Array
+                                        (
+                                            [mids] => Array
+                                                (
+                                                    [0] => mid.1483717603486:2d721bc751
+                                                )
+
+                                            [watermark] => 1483717603486
+                                            [seq] => 0
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)
+Array
+(
+    [recipient_id] => 1502549926429458
+    [message_id] => mid.1483717604313:2fe2ecf820
+)
+Array
+(
+    [object] => page
+    [entry] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 598038497055540
+                    [time] => 1483717604339
+                    [messaging] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [sender] => Array
+                                        (
+                                            [id] => 598038497055540
+                                        )
+
+                                    [recipient] => Array
+                                        (
+                                            [id] => 1502549926429458
+                                        )
+
+                                    [timestamp] => 1483717604313
+                                    [message] => Array
+                                        (
+                                            [is_echo] => 1
+                                            [quick_reply] => Array
+                                                (
+                                                    [payload] => 
+                                                )
+
+                                            [app_id] => 1931471583747607
+                                            [mid] => mid.1483717604313:2fe2ecf820
+                                            [seq] => 312647
+                                            [attachments] => Array
+                                                (
+                                                    [0] => Array
+                                                        (
+                                                            [title] => Bucaneer Tristana - RM 25, Guerilla Tristana - RM 15, Riot Girl Tristana - RM 10, Classic Tristana - FREE
+                                                            [url] => http://www.facebook.com/l.php?u=http%3A%2F%2FBotAhead.com%2F&h=ATP9Is3Oq250EU3-ZlXmVL_PBNr3G2Q3V8uTgWqAUGvL-p6dcgTxLxEmfNOia_1jOENCo-zZo1YcvyXlePLxxx7KwzNX0bSa1Rf8mNZKbguYA4ohGj3s_rQrCg_EweYv4c6hO50&s=1&enc=AZMzsGdZDRU9wqaCoYiWNZ3ZlOrD3VGBPwaKv2W62FmYADuOie8strPbJgyGCOJHO_5Q1j8-bpc2d_vZqVBoee3k
+                                                            [type] => template
+                                                            [payload] => Array
+                                                                (
+                                                                    [template_type] => generic
+                                                                    [sharable] => 
+                                                                    [elements] => Array
+                                                                        (
+                                                                            [0] => Array
+                                                                                (
+                                                                                    [title] => Bucaneer Tristana - RM 25
+                                                                                    [item_url] => http://BotAhead.com/
+                                                                                    [image_url] => https://d16205d2.ngrok.io/tutorial/files/i2.jpg
+                                                                                    [subtitle] => Tristana with canon , who will not love it ?
+                                                                                    [buttons] => Array
+                                                                                        (
+                                                                                            [0] => Array
+                                                                                                (
+                                                                                                    [type] => postback
+                                                                                                    [title] => Add To Cart
+                                                                                                    [payload] => Add_To_Cart_Product2
+                                                                                                )
+
+                                                                                            [1] => Array
+                                                                                                (
+                                                                                                    [type] => postback
+                                                                                                    [title] => Product Details
+                                                                                                    [payload] => Bot_Order_Save_32
+                                                                                                )
+
+                                                                                            [2] => Array
+                                                                                                (
+                                                                                                    [type] => phone_number
+                                                                                                    [title] => Contact Seller
+                                                                                                    [payload] => +60166260287
+                                                                                                )
+
+                                                                                        )
+
+                                                                                )
+
+                                                                            [1] => Array
+                                                                                (
+                                                                                    [title] => Guerilla Tristana - RM 15
+                                                                                    [item_url] => http://BotAhead.com/
+                                                                                    [image_url] => https://d16205d2.ngrok.io/tutorial/files/i3.jpg
+                                                                                    [subtitle] => Weirdy weird tristana skin , yucks !
+                                                                                    [buttons] => Array
+                                                                                        (
+                                                                                            [0] => Array
+                                                                                                (
+                                                                                                    [type] => postback
+                                                                                                    [title] => Add To Cart
+                                                                                                    [payload] => Add_To_Cart_Product3
+                                                                                                )
+
+                                                                                            [1] => Array
+                                                                                                (
+                                                                                                    [type] => postback
+                                                                                                    [title] => Product Details
+                                                                                                    [payload] => Bot_Order_Save_32
+                                                                                                )
+
+                                                                                            [2] => Array
+                                                                                                (
+                                                                                                    [type] => phone_number
+                                                                                                    [title] => Contact Seller
+                                                                                                    [payload] => +60166260287
+                                                                                                )
+
+                                                                                        )
+
+                                                                                )
+
+                                                                            [2] => Array
+                                                                                (
+                                                                                    [title] => Riot Girl Tristana - RM 10
+                                                                                    [item_url] => http://BotAhead.com/
+                                                                                    [image_url] => https://d16205d2.ngrok.io/tutorial/files/i4.jpg
+                                                                                    [subtitle] => Not much difference from the classic one, but it's a fking female !
+                                                                                    [buttons] => Array
+                                                                                        (
+                                                                                            [0] => Array
+                                                                                                (
+                                                                                                    [type] => postback
+                                                                                                    [title] => Add To Cart
+                                                                                                    [payload] => Add_To_Cart_Product4
+                                                                                                )
+
+                                                                                            [1] => Array
+                                                                                                (
+                                                                                                    [type] => postback
+                                                                                                    [title] => Product Details
+                                                                                                    [payload] => Bot_Order_Save_32
+                                                                                                )
+
+                                                                                            [2] => Array
+                                                                                                (
+                                                                                                    [type] => phone_number
+                                                                                                    [title] => Contact Seller
+                                                                                                    [payload] => +60166260287
+                                                                                                )
+
+                                                                                        )
+
+                                                                                )
+
+                                                                            [3] => Array
+                                                                                (
+                                                                                    [title] => Classic Tristana - FREE
+                                                                                    [item_url] => http://BotAhead.com/
+                                                                                    [image_url] => https://d16205d2.ngrok.io/tutorial/files/i1.jpg
+                                                                                    [subtitle] => The ugliest but classic tristana!
+                                                                                    [buttons] => Array
+                                                                                        (
+                                                                                            [0] => Array
+                                                                                                (
+                                                                                                    [type] => postback
+                                                                                                    [title] => Add To Cart
+                                                                                                    [payload] => Add_To_Cart_Product1
+                                                                                                )
+
+                                                                                            [1] => Array
+                                                                                                (
+                                                                                                    [type] => postback
+                                                                                                    [title] => Product Details
+                                                                                                    [payload] => Bot_Order_Save_32
+                                                                                                )
+
+                                                                                            [2] => Array
+                                                                                                (
+                                                                                                    [type] => phone_number
+                                                                                                    [title] => Contact Seller
+                                                                                                    [payload] => +60166260287
+                                                                                                )
+
+                                                                                        )
+
+                                                                                )
+
+                                                                        )
+
+                                                                )
+
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)
+Array
+(
+    [object] => page
+    [entry] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 598038497055540
+                    [time] => 1483717604716
+                    [messaging] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [sender] => Array
+                                        (
+                                            [id] => 1502549926429458
+                                        )
+
+                                    [recipient] => Array
+                                        (
+                                            [id] => 598038497055540
+                                        )
+
+                                    [timestamp] => 1483717604715
+                                    [delivery] => Array
+                                        (
+                                            [mids] => Array
+                                                (
+                                                    [0] => mid.1483717604313:2fe2ecf820
+                                                )
+
+                                            [watermark] => 1483717604313
+                                            [seq] => 0
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)
+Array
+(
+    [object] => page
+    [entry] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 598038497055540
+                    [time] => 1483717604989
+                    [messaging] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [sender] => Array
+                                        (
+                                            [id] => 1502549926429458
+                                        )
+
+                                    [recipient] => Array
+                                        (
+                                            [id] => 598038497055540
+                                        )
+
+                                    [timestamp] => 1483717604989
+                                    [delivery] => Array
+                                        (
+                                            [mids] => Array
+                                                (
+                                                    [0] => mid.1483717604313:2fe2ecf820
+                                                )
+
+                                            [watermark] => 1483717604313
+                                            [seq] => 0
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)
+Array
+(
+    [object] => page
+    [entry] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 598038497055540
+                    [time] => 1483717702550
+                    [messaging] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [sender] => Array
+                                        (
+                                            [id] => 1502549926429458
+                                        )
+
+                                    [recipient] => Array
+                                        (
+                                            [id] => 598038497055540
+                                        )
+
+                                    [timestamp] => 1483717702549
+                                    [read] => Array
+                                        (
+                                            [watermark] => 1483717604313
+                                            [seq] => 0
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)
+Array
+(
+    [object] => page
+    [entry] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 598038497055540
+                    [time] => 1483717705927
+                    [messaging] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [recipient] => Array
+                                        (
+                                            [id] => 598038497055540
+                                        )
+
+                                    [timestamp] => 1483717705927
+                                    [sender] => Array
+                                        (
+                                            [id] => 1502549926429458
+                                        )
+
+                                    [postback] => Array
+                                        (
+                                            [payload] => Add_To_Cart_Product4
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)
+Array
+(
+    [object] => page
+    [entry] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 598038497055540
+                    [time] => 1483717708303
+                    [messaging] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [sender] => Array
+                                        (
+                                            [id] => 598038497055540
+                                        )
+
+                                    [recipient] => Array
+                                        (
+                                            [id] => 1502549926429458
+                                        )
+
+                                    [timestamp] => 1483717708285
+                                    [message] => Array
+                                        (
+                                            [is_echo] => 1
+                                            [app_id] => 1931471583747607
+                                            [mid] => mid.1483717708285:cf2c1fa899
+                                            [seq] => 312653
+                                            [text] => Add_To_Cart_Product4Product4 has been successfully added to cart
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)
+Array
+(
+    [object] => page
+    [entry] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 598038497055540
+                    [time] => 1483717708819
+                    [messaging] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [sender] => Array
+                                        (
+                                            [id] => 1502549926429458
+                                        )
+
+                                    [recipient] => Array
+                                        (
+                                            [id] => 598038497055540
+                                        )
+
+                                    [timestamp] => 1483717708818
+                                    [delivery] => Array
+                                        (
+                                            [mids] => Array
+                                                (
+                                                    [0] => mid.1483717708285:cf2c1fa899
+                                                )
+
+                                            [watermark] => 1483717708285
+                                            [seq] => 0
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)
+Array
+(
+    [object] => page
+    [entry] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 598038497055540
+                    [time] => 1483717709139
+                    [messaging] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [sender] => Array
+                                        (
+                                            [id] => 1502549926429458
+                                        )
+
+                                    [recipient] => Array
+                                        (
+                                            [id] => 598038497055540
+                                        )
+
+                                    [timestamp] => 1483717709133
+                                    [delivery] => Array
+                                        (
+                                            [mids] => Array
+                                                (
+                                                    [0] => mid.1483717708285:cf2c1fa899
+                                                )
+
+                                            [watermark] => 1483717708285
+                                            [seq] => 0
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)
+Array
+(
+    [recipient_id] => 1502549926429458
+    [message_id] => mid.1483717709688:a9f6fe5155
+)
+Array
+(
+    [object] => page
+    [entry] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 598038497055540
+                    [time] => 1483717709717
+                    [messaging] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [sender] => Array
+                                        (
+                                            [id] => 598038497055540
+                                        )
+
+                                    [recipient] => Array
+                                        (
+                                            [id] => 1502549926429458
+                                        )
+
+                                    [timestamp] => 1483717709688
+                                    [message] => Array
+                                        (
+                                            [is_echo] => 1
+                                            [quick_reply] => Array
+                                                (
+                                                    [payload] => 
+                                                )
+
+                                            [app_id] => 1931471583747607
+                                            [mid] => mid.1483717709688:a9f6fe5155
+                                            [seq] => 312655
+                                            [attachments] => Array
+                                                (
+                                                    [0] => Array
+                                                        (
+                                                            [title] => Guerilla Tristana - RM 15, Bucaneer Tristana - RM 25, Classic Tristana - FREE, Riot Girl Tristana - RM 10
+                                                            [url] => http://www.facebook.com/l.php?u=http%3A%2F%2FBotAhead.com%2F&h=ATOf-yIfaBi8ya7WTOWdsOWjjpCjatx9Fwk6043SlFguMzP_DXhVBaH3p02Hx-YdVjk3z9mszo8rUg6gziusZNR9ElZyA05k5JNGJXX-zuS3UszEHNa2O9AKjCi_rBKA8_NcEWY&s=1&enc=AZPrAPfxFBZHU--sEyKL-YuhzQ38_-zQ6Als4i8VNcrJAeglcm1jSaTYEGqNOH8vrUiUWgrnv4q46goTJ7Xjd1PZ
+                                                            [type] => template
+                                                            [payload] => Array
+                                                                (
+                                                                    [template_type] => generic
+                                                                    [sharable] => 
+                                                                    [elements] => Array
+                                                                        (
+                                                                            [0] => Array
+                                                                                (
+                                                                                    [title] => Guerilla Tristana - RM 15
+                                                                                    [item_url] => http://BotAhead.com/
+                                                                                    [image_url] => https://d16205d2.ngrok.io/tutorial/files/i3.jpg
+                                                                                    [subtitle] => Weirdy weird tristana skin , yucks !
+                                                                                    [buttons] => Array
+                                                                                        (
+                                                                                            [0] => Array
+                                                                                                (
+                                                                                                    [type] => postback
+                                                                                                    [title] => Add To Cart
+                                                                                                    [payload] => Add_To_Cart_Product3
+                                                                                                )
+
+                                                                                            [1] => Array
+                                                                                                (
+                                                                                                    [type] => postback
+                                                                                                    [title] => Product Details
+                                                                                                    [payload] => Bot_Order_Save_32
+                                                                                                )
+
+                                                                                            [2] => Array
+                                                                                                (
+                                                                                                    [type] => phone_number
+                                                                                                    [title] => Contact Seller
+                                                                                                    [payload] => +60166260287
+                                                                                                )
+
+                                                                                        )
+
+                                                                                )
+
+                                                                            [1] => Array
+                                                                                (
+                                                                                    [title] => Bucaneer Tristana - RM 25
+                                                                                    [item_url] => http://BotAhead.com/
+                                                                                    [image_url] => https://d16205d2.ngrok.io/tutorial/files/i2.jpg
+                                                                                    [subtitle] => Tristana with canon , who will not love it ?
+                                                                                    [buttons] => Array
+                                                                                        (
+                                                                                            [0] => Array
+                                                                                                (
+                                                                                                    [type] => postback
+                                                                                                    [title] => Add To Cart
+                                                                                                    [payload] => Add_To_Cart_Product2
+                                                                                                )
+
+                                                                                            [1] => Array
+                                                                                                (
+                                                                                                    [type] => postback
+                                                                                                    [title] => Product Details
+                                                                                                    [payload] => Bot_Order_Save_32
+                                                                                                )
+
+                                                                                            [2] => Array
+                                                                                                (
+                                                                                                    [type] => phone_number
+                                                                                                    [title] => Contact Seller
+                                                                                                    [payload] => +60166260287
+                                                                                                )
+
+                                                                                        )
+
+                                                                                )
+
+                                                                            [2] => Array
+                                                                                (
+                                                                                    [title] => Classic Tristana - FREE
+                                                                                    [item_url] => http://BotAhead.com/
+                                                                                    [image_url] => https://d16205d2.ngrok.io/tutorial/files/i1.jpg
+                                                                                    [subtitle] => The ugliest but classic tristana!
+                                                                                    [buttons] => Array
+                                                                                        (
+                                                                                            [0] => Array
+                                                                                                (
+                                                                                                    [type] => postback
+                                                                                                    [title] => Add To Cart
+                                                                                                    [payload] => Add_To_Cart_Product1
+                                                                                                )
+
+                                                                                            [1] => Array
+                                                                                                (
+                                                                                                    [type] => postback
+                                                                                                    [title] => Product Details
+                                                                                                    [payload] => Bot_Order_Save_32
+                                                                                                )
+
+                                                                                            [2] => Array
+                                                                                                (
+                                                                                                    [type] => phone_number
+                                                                                                    [title] => Contact Seller
+                                                                                                    [payload] => +60166260287
+                                                                                                )
+
+                                                                                        )
+
+                                                                                )
+
+                                                                            [3] => Array
+                                                                                (
+                                                                                    [title] => Riot Girl Tristana - RM 10
+                                                                                    [item_url] => http://BotAhead.com/
+                                                                                    [image_url] => https://d16205d2.ngrok.io/tutorial/files/i4.jpg
+                                                                                    [subtitle] => Not much difference from the classic one, but it's a fking female !
+                                                                                    [buttons] => Array
+                                                                                        (
+                                                                                            [0] => Array
+                                                                                                (
+                                                                                                    [type] => postback
+                                                                                                    [title] => Add To Cart
+                                                                                                    [payload] => Add_To_Cart_Product4
+                                                                                                )
+
+                                                                                            [1] => Array
+                                                                                                (
+                                                                                                    [type] => postback
+                                                                                                    [title] => Product Details
+                                                                                                    [payload] => Bot_Order_Save_32
+                                                                                                )
+
+                                                                                            [2] => Array
+                                                                                                (
+                                                                                                    [type] => phone_number
+                                                                                                    [title] => Contact Seller
+                                                                                                    [payload] => +60166260287
+                                                                                                )
+
+                                                                                        )
+
+                                                                                )
+
+                                                                        )
+
+                                                                )
+
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)
+Array
+(
+    [object] => page
+    [entry] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 598038497055540
+                    [time] => 1483717710067
+                    [messaging] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [sender] => Array
+                                        (
+                                            [id] => 1502549926429458
+                                        )
+
+                                    [recipient] => Array
+                                        (
+                                            [id] => 598038497055540
+                                        )
+
+                                    [timestamp] => 1483717710065
+                                    [delivery] => Array
+                                        (
+                                            [mids] => Array
+                                                (
+                                                    [0] => mid.1483717709688:a9f6fe5155
+                                                )
+
+                                            [watermark] => 1483717709688
+                                            [seq] => 0
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)
+Array
+(
+    [object] => page
+    [entry] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 598038497055540
+                    [time] => 1483717710131
+                    [messaging] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [sender] => Array
+                                        (
+                                            [id] => 1502549926429458
+                                        )
+
+                                    [recipient] => Array
+                                        (
+                                            [id] => 598038497055540
+                                        )
+
+                                    [timestamp] => 1483717710130
+                                    [delivery] => Array
+                                        (
+                                            [mids] => Array
+                                                (
+                                                    [0] => mid.1483717709688:a9f6fe5155
+                                                )
+
+                                            [watermark] => 1483717709688
+                                            [seq] => 0
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)
+Array
+(
+    [object] => page
+    [entry] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 598038497055540
+                    [time] => 1483717733505
+                    [messaging] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [recipient] => Array
+                                        (
+                                            [id] => 598038497055540
+                                        )
+
+                                    [timestamp] => 1483717733505
+                                    [sender] => Array
+                                        (
+                                            [id] => 1502549926429458
+                                        )
+
+                                    [postback] => Array
+                                        (
+                                            [payload] => Add_To_Cart_Product1
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)
+Array
+(
+    [object] => page
+    [entry] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 598038497055540
+                    [time] => 1483717734158
+                    [messaging] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [sender] => Array
+                                        (
+                                            [id] => 598038497055540
+                                        )
+
+                                    [recipient] => Array
+                                        (
+                                            [id] => 1502549926429458
+                                        )
+
+                                    [timestamp] => 1483717734142
+                                    [message] => Array
+                                        (
+                                            [is_echo] => 1
+                                            [app_id] => 1931471583747607
+                                            [mid] => mid.1483717734142:2d4e63e622
+                                            [seq] => 312661
+                                            [text] => Product1 has been successfully added to cart
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)
+Array
+(
+    [object] => page
+    [entry] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 598038497055540
+                    [time] => 1483717734499
+                    [messaging] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [sender] => Array
+                                        (
+                                            [id] => 1502549926429458
+                                        )
+
+                                    [recipient] => Array
+                                        (
+                                            [id] => 598038497055540
+                                        )
+
+                                    [timestamp] => 1483717734498
+                                    [delivery] => Array
+                                        (
+                                            [mids] => Array
+                                                (
+                                                    [0] => mid.1483717734142:2d4e63e622
+                                                )
+
+                                            [watermark] => 1483717734142
+                                            [seq] => 0
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)
+Array
+(
+    [object] => page
+    [entry] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 598038497055540
+                    [time] => 1483717734547
+                    [messaging] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [sender] => Array
+                                        (
+                                            [id] => 1502549926429458
+                                        )
+
+                                    [recipient] => Array
+                                        (
+                                            [id] => 598038497055540
+                                        )
+
+                                    [timestamp] => 1483717734547
+                                    [delivery] => Array
+                                        (
+                                            [mids] => Array
+                                                (
+                                                    [0] => mid.1483717734142:2d4e63e622
+                                                )
+
+                                            [watermark] => 1483717734142
+                                            [seq] => 0
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)
+Array
+(
+    [recipient_id] => 1502549926429458
+    [message_id] => mid.1483717734955:bbcf7df843
+)
+Array
+(
+    [object] => page
+    [entry] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 598038497055540
+                    [time] => 1483717734985
+                    [messaging] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [sender] => Array
+                                        (
+                                            [id] => 598038497055540
+                                        )
+
+                                    [recipient] => Array
+                                        (
+                                            [id] => 1502549926429458
+                                        )
+
+                                    [timestamp] => 1483717734955
+                                    [message] => Array
+                                        (
+                                            [is_echo] => 1
+                                            [quick_reply] => Array
+                                                (
+                                                    [payload] => 
+                                                )
+
+                                            [app_id] => 1931471583747607
+                                            [mid] => mid.1483717734955:bbcf7df843
+                                            [seq] => 312662
+                                            [attachments] => Array
+                                                (
+                                                    [0] => Array
+                                                        (
+                                                            [title] => Guerilla Tristana - RM 15, Bucaneer Tristana - RM 25, Classic Tristana - FREE, Riot Girl Tristana - RM 10
+                                                            [url] => http://www.facebook.com/l.php?u=http%3A%2F%2FBotAhead.com%2F&h=ATPG-eZlkj4EA1cmDkLv5KQ65iCRHnXjMaugPx0UnDnjSeNwPXQSgIY7duIx4q4sRoILUIQ45x39aNPqfyCpmXA50s5imVVi-g29fWhFur3uzz_9cP3FK9_bcq_-Vkqf_Ese8zA&s=1&enc=AZOUIhgTs8jh0JhflOGdtrOhaa7dt3p6-PvbMmoRGdNrc_2ZbhfqxnXeZ5wmGVWwbmnbOxTr7WV6n16gUeEFbuSc
+                                                            [type] => template
+                                                            [payload] => Array
+                                                                (
+                                                                    [template_type] => generic
+                                                                    [sharable] => 
+                                                                    [elements] => Array
+                                                                        (
+                                                                            [0] => Array
+                                                                                (
+                                                                                    [title] => Guerilla Tristana - RM 15
+                                                                                    [item_url] => http://BotAhead.com/
+                                                                                    [image_url] => https://d16205d2.ngrok.io/tutorial/files/i3.jpg
+                                                                                    [subtitle] => Weirdy weird tristana skin , yucks !
+                                                                                    [buttons] => Array
+                                                                                        (
+                                                                                            [0] => Array
+                                                                                                (
+                                                                                                    [type] => postback
+                                                                                                    [title] => Add To Cart
+                                                                                                    [payload] => Add_To_Cart_Product3
+                                                                                                )
+
+                                                                                            [1] => Array
+                                                                                                (
+                                                                                                    [type] => postback
+                                                                                                    [title] => Product Details
+                                                                                                    [payload] => Bot_Order_Save_32
+                                                                                                )
+
+                                                                                            [2] => Array
+                                                                                                (
+                                                                                                    [type] => phone_number
+                                                                                                    [title] => Contact Seller
+                                                                                                    [payload] => +60166260287
+                                                                                                )
+
+                                                                                        )
+
+                                                                                )
+
+                                                                            [1] => Array
+                                                                                (
+                                                                                    [title] => Bucaneer Tristana - RM 25
+                                                                                    [item_url] => http://BotAhead.com/
+                                                                                    [image_url] => https://d16205d2.ngrok.io/tutorial/files/i2.jpg
+                                                                                    [subtitle] => Tristana with canon , who will not love it ?
+                                                                                    [buttons] => Array
+                                                                                        (
+                                                                                            [0] => Array
+                                                                                                (
+                                                                                                    [type] => postback
+                                                                                                    [title] => Add To Cart
+                                                                                                    [payload] => Add_To_Cart_Product2
+                                                                                                )
+
+                                                                                            [1] => Array
+                                                                                                (
+                                                                                                    [type] => postback
+                                                                                                    [title] => Product Details
+                                                                                                    [payload] => Bot_Order_Save_32
+                                                                                                )
+
+                                                                                            [2] => Array
+                                                                                                (
+                                                                                                    [type] => phone_number
+                                                                                                    [title] => Contact Seller
+                                                                                                    [payload] => +60166260287
+                                                                                                )
+
+                                                                                        )
+
+                                                                                )
+
+                                                                            [2] => Array
+                                                                                (
+                                                                                    [title] => Classic Tristana - FREE
+                                                                                    [item_url] => http://BotAhead.com/
+                                                                                    [image_url] => https://d16205d2.ngrok.io/tutorial/files/i1.jpg
+                                                                                    [subtitle] => The ugliest but classic tristana!
+                                                                                    [buttons] => Array
+                                                                                        (
+                                                                                            [0] => Array
+                                                                                                (
+                                                                                                    [type] => postback
+                                                                                                    [title] => Add To Cart
+                                                                                                    [payload] => Add_To_Cart_Product1
+                                                                                                )
+
+                                                                                            [1] => Array
+                                                                                                (
+                                                                                                    [type] => postback
+                                                                                                    [title] => Product Details
+                                                                                                    [payload] => Bot_Order_Save_32
+                                                                                                )
+
+                                                                                            [2] => Array
+                                                                                                (
+                                                                                                    [type] => phone_number
+                                                                                                    [title] => Contact Seller
+                                                                                                    [payload] => +60166260287
+                                                                                                )
+
+                                                                                        )
+
+                                                                                )
+
+                                                                            [3] => Array
+                                                                                (
+                                                                                    [title] => Riot Girl Tristana - RM 10
+                                                                                    [item_url] => http://BotAhead.com/
+                                                                                    [image_url] => https://d16205d2.ngrok.io/tutorial/files/i4.jpg
+                                                                                    [subtitle] => Not much difference from the classic one, but it's a fking female !
+                                                                                    [buttons] => Array
+                                                                                        (
+                                                                                            [0] => Array
+                                                                                                (
+                                                                                                    [type] => postback
+                                                                                                    [title] => Add To Cart
+                                                                                                    [payload] => Add_To_Cart_Product4
+                                                                                                )
+
+                                                                                            [1] => Array
+                                                                                                (
+                                                                                                    [type] => postback
+                                                                                                    [title] => Product Details
+                                                                                                    [payload] => Bot_Order_Save_32
+                                                                                                )
+
+                                                                                            [2] => Array
+                                                                                                (
+                                                                                                    [type] => phone_number
+                                                                                                    [title] => Contact Seller
+                                                                                                    [payload] => +60166260287
+                                                                                                )
+
+                                                                                        )
+
+                                                                                )
+
+                                                                        )
+
+                                                                )
+
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)
+Array
+(
+    [object] => page
+    [entry] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 598038497055540
+                    [time] => 1483717735484
+                    [messaging] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [sender] => Array
+                                        (
+                                            [id] => 1502549926429458
+                                        )
+
+                                    [recipient] => Array
+                                        (
+                                            [id] => 598038497055540
+                                        )
+
+                                    [timestamp] => 1483717735483
+                                    [delivery] => Array
+                                        (
+                                            [mids] => Array
+                                                (
+                                                    [0] => mid.1483717734955:bbcf7df843
+                                                )
+
+                                            [watermark] => 1483717734955
+                                            [seq] => 0
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)
+Array
+(
+    [object] => page
+    [entry] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 598038497055540
+                    [time] => 1483717735663
+                    [messaging] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [sender] => Array
+                                        (
+                                            [id] => 1502549926429458
+                                        )
+
+                                    [recipient] => Array
+                                        (
+                                            [id] => 598038497055540
+                                        )
+
+                                    [timestamp] => 1483717735663
+                                    [delivery] => Array
+                                        (
+                                            [mids] => Array
+                                                (
+                                                    [0] => mid.1483717734955:bbcf7df843
+                                                )
+
+                                            [watermark] => 1483717734955
+                                            [seq] => 0
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)
+Array
+(
+    [object] => page
+    [entry] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 598038497055540
+                    [time] => 1483717772859
+                    [messaging] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [sender] => Array
+                                        (
+                                            [id] => 1502549926429458
+                                        )
+
+                                    [recipient] => Array
+                                        (
+                                            [id] => 598038497055540
+                                        )
+
+                                    [timestamp] => 1483717772856
+                                    [read] => Array
+                                        (
+                                            [watermark] => 1483717734955
+                                            [seq] => 0
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)
+Array
+(
+    [object] => page
+    [entry] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 598038497055540
+                    [time] => 1483717889520
+                    [messaging] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [recipient] => Array
+                                        (
+                                            [id] => 598038497055540
+                                        )
+
+                                    [timestamp] => 1483717889520
+                                    [sender] => Array
+                                        (
+                                            [id] => 1502549926429458
+                                        )
+
+                                    [postback] => Array
+                                        (
+                                            [payload] => Add_To_Cart_Product1
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)
+Array
+(
+    [object] => page
+    [entry] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 598038497055540
+                    [time] => 1483717890253
+                    [messaging] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [sender] => Array
+                                        (
+                                            [id] => 598038497055540
+                                        )
+
+                                    [recipient] => Array
+                                        (
+                                            [id] => 1502549926429458
+                                        )
+
+                                    [timestamp] => 1483717890223
+                                    [message] => Array
+                                        (
+                                            [is_echo] => 1
+                                            [app_id] => 1931471583747607
+                                            [mid] => mid.1483717890223:fd7f162021
+                                            [seq] => 312668
+                                            [text] => Add_To_Cart_Product1Product1 has been successfully added to cart
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)
+Array
+(
+    [object] => page
+    [entry] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 598038497055540
+                    [time] => 1483717890634
+                    [messaging] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [sender] => Array
+                                        (
+                                            [id] => 1502549926429458
+                                        )
+
+                                    [recipient] => Array
+                                        (
+                                            [id] => 598038497055540
+                                        )
+
+                                    [timestamp] => 1483717890633
+                                    [delivery] => Array
+                                        (
+                                            [mids] => Array
+                                                (
+                                                    [0] => mid.1483717890223:fd7f162021
+                                                )
+
+                                            [watermark] => 1483717890223
+                                            [seq] => 0
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)
+Array
+(
+    [recipient_id] => 1502549926429458
+    [message_id] => mid.1483717891168:9c822b0f17
+)
+Array
+(
+    [object] => page
+    [entry] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 598038497055540
+                    [time] => 1483717891192
+                    [messaging] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [sender] => Array
+                                        (
+                                            [id] => 598038497055540
+                                        )
+
+                                    [recipient] => Array
+                                        (
+                                            [id] => 1502549926429458
+                                        )
+
+                                    [timestamp] => 1483717891168
+                                    [message] => Array
+                                        (
+                                            [is_echo] => 1
+                                            [quick_reply] => Array
+                                                (
+                                                    [payload] => 
+                                                )
+
+                                            [app_id] => 1931471583747607
+                                            [mid] => mid.1483717891168:9c822b0f17
+                                            [seq] => 312669
+                                            [attachments] => Array
+                                                (
+                                                    [0] => Array
+                                                        (
+                                                            [title] => Riot Girl Tristana - RM 10, Bucaneer Tristana - RM 25, Classic Tristana - FREE, Guerilla Tristana - RM 15
+                                                            [url] => http://www.facebook.com/l.php?u=http%3A%2F%2FBotAhead.com%2F&h=ATObr5g4vbygaRKuHsxVHc1t2i_he8q7F1IsovodXqHcFHzCKG-3RTxq0xxZLf54-wB6Dm8-M4APfguzcJY2LcJRGrEXLLISh971Zpkn8Ic82g88GjPIXURzJ8WP84hNSKGTXqk&s=1&enc=AZOWArcTSEx-zhX96NsSpndTIXQNwtS365MI9lL_azFdPaNOb6CvbdRyJgvBwrn-2RX1QQJOwDCInM7Mx3LMWV5a
+                                                            [type] => template
+                                                            [payload] => Array
+                                                                (
+                                                                    [template_type] => generic
+                                                                    [sharable] => 
+                                                                    [elements] => Array
+                                                                        (
+                                                                            [0] => Array
+                                                                                (
+                                                                                    [title] => Riot Girl Tristana - RM 10
+                                                                                    [item_url] => http://BotAhead.com/
+                                                                                    [image_url] => https://d16205d2.ngrok.io/tutorial/files/i4.jpg
+                                                                                    [subtitle] => Not much difference from the classic one, but it's a fking female !
+                                                                                    [buttons] => Array
+                                                                                        (
+                                                                                            [0] => Array
+                                                                                                (
+                                                                                                    [type] => postback
+                                                                                                    [title] => Add To Cart
+                                                                                                    [payload] => Add_To_Cart_Product4
+                                                                                                )
+
+                                                                                            [1] => Array
+                                                                                                (
+                                                                                                    [type] => postback
+                                                                                                    [title] => Product Details
+                                                                                                    [payload] => Bot_Order_Save_32
+                                                                                                )
+
+                                                                                            [2] => Array
+                                                                                                (
+                                                                                                    [type] => phone_number
+                                                                                                    [title] => Contact Seller
+                                                                                                    [payload] => +60166260287
+                                                                                                )
+
+                                                                                        )
+
+                                                                                )
+
+                                                                            [1] => Array
+                                                                                (
+                                                                                    [title] => Bucaneer Tristana - RM 25
+                                                                                    [item_url] => http://BotAhead.com/
+                                                                                    [image_url] => https://d16205d2.ngrok.io/tutorial/files/i2.jpg
+                                                                                    [subtitle] => Tristana with canon , who will not love it ?
+                                                                                    [buttons] => Array
+                                                                                        (
+                                                                                            [0] => Array
+                                                                                                (
+                                                                                                    [type] => postback
+                                                                                                    [title] => Add To Cart
+                                                                                                    [payload] => Add_To_Cart_Product2
+                                                                                                )
+
+                                                                                            [1] => Array
+                                                                                                (
+                                                                                                    [type] => postback
+                                                                                                    [title] => Product Details
+                                                                                                    [payload] => Bot_Order_Save_32
+                                                                                                )
+
+                                                                                            [2] => Array
+                                                                                                (
+                                                                                                    [type] => phone_number
+                                                                                                    [title] => Contact Seller
+                                                                                                    [payload] => +60166260287
+                                                                                                )
+
+                                                                                        )
+
+                                                                                )
+
+                                                                            [2] => Array
+                                                                                (
+                                                                                    [title] => Classic Tristana - FREE
+                                                                                    [item_url] => http://BotAhead.com/
+                                                                                    [image_url] => https://d16205d2.ngrok.io/tutorial/files/i1.jpg
+                                                                                    [subtitle] => The ugliest but classic tristana!
+                                                                                    [buttons] => Array
+                                                                                        (
+                                                                                            [0] => Array
+                                                                                                (
+                                                                                                    [type] => postback
+                                                                                                    [title] => Add To Cart
+                                                                                                    [payload] => Add_To_Cart_Product1
+                                                                                                )
+
+                                                                                            [1] => Array
+                                                                                                (
+                                                                                                    [type] => postback
+                                                                                                    [title] => Product Details
+                                                                                                    [payload] => Bot_Order_Save_32
+                                                                                                )
+
+                                                                                            [2] => Array
+                                                                                                (
+                                                                                                    [type] => phone_number
+                                                                                                    [title] => Contact Seller
+                                                                                                    [payload] => +60166260287
+                                                                                                )
+
+                                                                                        )
+
+                                                                                )
+
+                                                                            [3] => Array
+                                                                                (
+                                                                                    [title] => Guerilla Tristana - RM 15
+                                                                                    [item_url] => http://BotAhead.com/
+                                                                                    [image_url] => https://d16205d2.ngrok.io/tutorial/files/i3.jpg
+                                                                                    [subtitle] => Weirdy weird tristana skin , yucks !
+                                                                                    [buttons] => Array
+                                                                                        (
+                                                                                            [0] => Array
+                                                                                                (
+                                                                                                    [type] => postback
+                                                                                                    [title] => Add To Cart
+                                                                                                    [payload] => Add_To_Cart_Product3
+                                                                                                )
+
+                                                                                            [1] => Array
+                                                                                                (
+                                                                                                    [type] => postback
+                                                                                                    [title] => Product Details
+                                                                                                    [payload] => Bot_Order_Save_32
+                                                                                                )
+
+                                                                                            [2] => Array
+                                                                                                (
+                                                                                                    [type] => phone_number
+                                                                                                    [title] => Contact Seller
+                                                                                                    [payload] => +60166260287
+                                                                                                )
+
+                                                                                        )
+
+                                                                                )
+
+                                                                        )
+
+                                                                )
+
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)
+Array
+(
+    [object] => page
+    [entry] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 598038497055540
+                    [time] => 1483717891597
+                    [messaging] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [sender] => Array
+                                        (
+                                            [id] => 1502549926429458
+                                        )
+
+                                    [recipient] => Array
+                                        (
+                                            [id] => 598038497055540
+                                        )
+
+                                    [timestamp] => 1483717891595
+                                    [delivery] => Array
+                                        (
+                                            [mids] => Array
+                                                (
+                                                    [0] => mid.1483717891168:9c822b0f17
+                                                )
+
+                                            [watermark] => 1483717891168
+                                            [seq] => 0
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)
+Array
+(
+    [object] => page
+    [entry] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 598038497055540
+                    [time] => 1483717892490
+                    [messaging] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [sender] => Array
+                                        (
+                                            [id] => 1502549926429458
+                                        )
+
+                                    [recipient] => Array
+                                        (
+                                            [id] => 598038497055540
+                                        )
+
+                                    [timestamp] => 1483717892488
+                                    [delivery] => Array
+                                        (
+                                            [mids] => Array
+                                                (
+                                                    [0] => mid.1483717890223:fd7f162021
+                                                    [1] => mid.1483717891168:9c822b0f17
+                                                )
+
+                                            [watermark] => 1483717891168
+                                            [seq] => 0
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)
+Array
+(
+    [object] => page
+    [entry] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 598038497055540
+                    [time] => 1483721953193
+                    [messaging] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [sender] => Array
+                                        (
+                                            [id] => 1502549926429458
+                                        )
+
+                                    [recipient] => Array
+                                        (
+                                            [id] => 598038497055540
+                                        )
+
+                                    [timestamp] => 1483721953192
+                                    [read] => Array
+                                        (
+                                            [watermark] => 1483717891168
+                                            [seq] => 0
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)
