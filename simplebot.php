@@ -15,10 +15,16 @@ error_reporting(E_ERROR | E_PARSE);
 
 require_once('lib/meekrodb.2.3.class.php');
 
-DB::$user = 'root';
-DB::$password = '';
-DB::$dbName = 'fbchatbot';
-DB::$host = 'localhost'; 
+$cleardb_url = parse_url(getenv("CLEARDB_DATABASE_URL"));
+$cleardb_server = $cleardb_url["host"];
+$cleardb_username = $cleardb_url["user"];
+$cleardb_password = $cleardb_url["pass"];
+$cleardb_db = substr($cleardb_url["path"], 1);
+
+DB::$user = $cleardb_username;
+DB::$password = $cleardb_password;
+DB::$dbName = $cleardb_db;
+DB::$host = $cleardb_server; 
 DB::$encoding = 'utf8mb4_unicode_ci'; 
 
 DB::$error_handler = 'sql_error_handler';
@@ -475,13 +481,13 @@ $buttons4[] = array("type" => "phone_number", "title"=> "Contact Seller", "paylo
 
 
 $elements[] = array("title" => "Classic Tristana - FREE", "subtitle"=> "The ugliest but classic tristana!", 
-                    "image_url" => "https://d16205d2.ngrok.io/tutorial/files/i1.jpg", "item_url" => "http://BotAhead.com/", 'buttons' => $buttons1);    
+                    "image_url" => "https://quiet-plateau-62647.herokuapp.com//tutorial/files/i1.jpg", "item_url" => "http://BotAhead.com/", 'buttons' => $buttons1);    
 $elements[] = array("title" => "Bucaneer Tristana - RM 25", "subtitle"=> "Tristana with canon , who will not love it ?", 
-                    "image_url" => "https://d16205d2.ngrok.io/tutorial/files/i2.jpg", "item_url" => "http://BotAhead.com/", 'buttons' => $buttons2);    
+                    "image_url" => "https://quiet-plateau-62647.herokuapp.com//tutorial/files/i2.jpg", "item_url" => "http://BotAhead.com/", 'buttons' => $buttons2);    
 $elements[] = array("title" => "Guerilla Tristana - RM 15", "subtitle"=> "Weirdy weird tristana skin , yucks !", 
-                    "image_url" => "https://d16205d2.ngrok.io/tutorial/files/i3.jpg", "item_url" => "http://BotAhead.com/", 'buttons' => $buttons3);    
+                    "image_url" => "https://quiet-plateau-62647.herokuapp.com//tutorial/files/i3.jpg", "item_url" => "http://BotAhead.com/", 'buttons' => $buttons3);    
 $elements[] = array("title" => "Riot Girl Tristana - RM 10", "subtitle"=> "Not much difference from the classic one, but it's a fking female !", 
-                    "image_url" => "https://d16205d2.ngrok.io/tutorial/files/i4.jpg", "item_url" => "http://BotAhead.com/", 'buttons' => $buttons4);    
+                    "image_url" => "https://quiet-plateau-62647.herokuapp.com//tutorial/files/i4.jpg", "item_url" => "http://BotAhead.com/", 'buttons' => $buttons4);    
                 
 $sendmsg = new stdClass();
 $sendmsg->recipient->id = $senderid;
