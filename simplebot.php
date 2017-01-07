@@ -481,13 +481,13 @@ $buttons4[] = array("type" => "phone_number", "title"=> "Contact Seller", "paylo
 
 
 $elements[] = array("title" => "Classic Tristana - FREE", "subtitle"=> "The ugliest but classic tristana!", 
-                    "image_url" => "https://quiet-plateau-62647.herokuapp.com//tutorial/files/i1.jpg", "item_url" => "http://BotAhead.com/", 'buttons' => $buttons1);    
+                    "image_url" => "https://quiet-plateau-62647.herokuapp.com/files/i1.jpg", "item_url" => "http://BotAhead.com/", 'buttons' => $buttons1);    
 $elements[] = array("title" => "Bucaneer Tristana - RM 25", "subtitle"=> "Tristana with canon , who will not love it ?", 
-                    "image_url" => "https://quiet-plateau-62647.herokuapp.com//tutorial/files/i2.jpg", "item_url" => "http://BotAhead.com/", 'buttons' => $buttons2);    
+                    "image_url" => "https://quiet-plateau-62647.herokuapp.com/files/i2.jpg", "item_url" => "http://BotAhead.com/", 'buttons' => $buttons2);    
 $elements[] = array("title" => "Guerilla Tristana - RM 15", "subtitle"=> "Weirdy weird tristana skin , yucks !", 
-                    "image_url" => "https://quiet-plateau-62647.herokuapp.com//tutorial/files/i3.jpg", "item_url" => "http://BotAhead.com/", 'buttons' => $buttons3);    
+                    "image_url" => "https://quiet-plateau-62647.herokuapp.com/files/i3.jpg", "item_url" => "http://BotAhead.com/", 'buttons' => $buttons3);    
 $elements[] = array("title" => "Riot Girl Tristana - RM 10", "subtitle"=> "Not much difference from the classic one, but it's a fking female !", 
-                    "image_url" => "https://quiet-plateau-62647.herokuapp.com//tutorial/files/i4.jpg", "item_url" => "http://BotAhead.com/", 'buttons' => $buttons4);    
+                    "image_url" => "https://quiet-plateau-62647.herokuapp.com/files/i4.jpg", "item_url" => "http://BotAhead.com/", 'buttons' => $buttons4);    
                 
 $sendmsg = new stdClass();
 $sendmsg->recipient->id = $senderid;
