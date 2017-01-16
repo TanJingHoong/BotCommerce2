@@ -40,7 +40,7 @@ function sql_error_handler($params) {
 
 global $apiurl, $graphapiurl, $page_access_token;
 
-$page_access_token="EAADZACcr49wQBAJfdzBBlvlOQa9Wlh3jtJZCKXyeOF0Gmw7ACAku5ZBtZAGus0Xu9KYEdGhdKBsNGfRNqtbWhiKlNKHBZCTChLcjEZBiIx8qU9FH756OweqFWAhlZCcZB9UBHUsC7abvecrPEviZBBanyLBDxDrAsxmqZByJ1RYHlArQZDZD";
+$page_access_token="EAADWG4y7vLMBANUjHrMWDfJQgnuoQM1DM3mOnIF2MZBUh0DnVlqpu5e9ZCGK7yRZCTyDWt5wDmZBca6yh6pTWrDn4QNaFRwR32nz4DFWkS1sv8PAEkZCC9HhM396MNmAKRK31M0p6sRAt6uTEor6DgseyKyg50rkLgIvGS4YkGAZDZD";
 
 $apiurl = "https://graph.facebook.com/v2.6/me/messages?access_token=$page_access_token";
 
@@ -433,9 +433,15 @@ if(count($profiledata) == 0)
     }
 }
 
-if($cmdtext = "Show_Products"){
+if($cmdtext == "Show_Products"){
     sendtemplate_carousel($senderid);
-}    
+    
+}elseif($cmdtext == "View_Cart"){
+    sendtemplate_carouselcart($senderid);
+    
+}elseif($cmdtext == "Check_Out"){
+    sendtemplate_quickreplytextcheckout($senderid);
+}   
     
 }
 
@@ -466,6 +472,65 @@ else{fwrite($fp,print_r($res, true)); fclose($fp);}
 
 
 
+//Response to empty cart
+//##################################
+
+function sendtemplate_quickreplytextempty($senderid)
+{
+global $apiurl, $graphapiurl, $page_access_token;
+    
+$reply[] = array("content_type" => "text", "title"=> "CheckOut", "payload" => "Check_Out");
+$reply[] = array("content_type" => "text", "title"=> "Show Products", "payload" => "Show_Products");
+
+
+    
+$sendmsg = new stdClass();
+$sendmsg->recipient->id = $senderid;
+$sendmsg->message->text = 'You have no product in cart !';
+$sendmsg->message->quick_replies = $reply;    
+
+$res = send_curl_data_tofb($sendmsg);
+    
+$fp = fopen("logfbdata.txt","a");
+if( $fp == false ){ echo "file creation failed";}
+else{fwrite($fp,print_r($res, true)); fclose($fp);}
+}
+
+//Response to empty cart
+//#########################################
+
+
+
+
+
+//Response to checkout
+//##################################
+
+function sendtemplate_quickreplytextcheckout($senderid)
+{
+global $apiurl, $graphapiurl, $page_access_token;
+    
+$reply[] = array("content_type" => "text", "title"=> "View Cart", "payload" => "View_Cart");
+$reply[] = array("content_type" => "text", "title"=> "Show Products", "payload" => "Show_Products");
+
+
+    
+$sendmsg = new stdClass();
+$sendmsg->recipient->id = $senderid;
+$sendmsg->message->text = 'Payment page for this merchant is not set up yet !';
+$sendmsg->message->quick_replies = $reply;    
+
+$res = send_curl_data_tofb($sendmsg);
+    
+$fp = fopen("logfbdata.txt","a");
+if( $fp == false ){ echo "file creation failed";}
+else{fwrite($fp,print_r($res, true)); fclose($fp);}
+}
+
+//Response to checkout
+//#########################################
+
+
 //Response to Carousel
 //#########################################
 
@@ -473,8 +538,10 @@ function sendtemplate_carousel($senderid)
 {
 global $apiurl, $graphapiurl, $page_access_token;
 
-$reply[] = array("content_type" => "text", "title"=> "CheckOut", "payload" => "Bot_Order_Cancel");
-$reply[] = array("content_type" => "text", "title"=> "View Cart", "payload" => "Bot_Order_StartOver");
+
+
+$reply[] = array("content_type" => "text", "title"=> "CheckOut", "payload" => "Check_Out");
+$reply[] = array("content_type" => "text", "title"=> "View Cart", "payload" => "View_Cart");
 
     
 $buttons1[] = array("type" => "postback", "title"=> "Add To Cart", "payload" => "Add_To_Cart_Product1");
@@ -494,15 +561,125 @@ $buttons4[] = array("type" => "postback", "title"=> "Product Details", "payload"
 $buttons4[] = array("type" => "phone_number", "title"=> "Contact Seller", "payload" => "+60166260287");
 
 
-$elements[] = array("title" => "Classic Tristana - FREE", "subtitle"=> "The ugliest but classic tristana!", 
-                    "image_url" => "https://f5081d0a.ngrok.io/tutorial/files/i1.jpg", "item_url" => "http://BotAhead.com/", 'buttons' => $buttons1);    
-$elements[] = array("title" => "Bucaneer Tristana - RM 25", "subtitle"=> "Tristana with canon , who will not love it ?", 
-                    "image_url" => "https://f5081d0a.ngrok.io/tutorial/files/i2.jpg", "item_url" => "http://BotAhead.com/", 'buttons' => $buttons2);    
-$elements[] = array("title" => "Guerilla Tristana - RM 15", "subtitle"=> "Weirdy weird tristana skin , yucks !", 
-                    "image_url" => "https://f5081d0a.ngrok.io/tutorial/files/i3.jpg", "item_url" => "http://BotAhead.com/", 'buttons' => $buttons3);    
-$elements[] = array("title" => "Riot Girl Tristana - RM 10", "subtitle"=> "Not much difference from the classic one, but it's a fking female !", 
-                    "image_url" => "https://f5081d0a.ngrok.io/tutorial/files/i4.jpg", "item_url" => "http://BotAhead.com/", 'buttons' => $buttons4);    
+$elements[0] = array("title" => "Classic Tristana - FREE", "subtitle"=> "The ugliest but classic tristana!", 
+                    "image_url" => " https://f1a94e95.ngrok.io/botcommerce2/files/i1.jpg", "item_url" => "http://BotAhead.com/", 'buttons' => $buttons1);    
+$elements[1] = array("title" => "Bucaneer Tristana - RM 25", "subtitle"=> "Tristana with canon , who will not love it ?", 
+                    "image_url" => " https://f1a94e95.ngrok.io/botcommerce2/files/i2.jpg", "item_url" => "http://BotAhead.com/", 'buttons' => $buttons2);    
+$elements[2] = array("title" => "Guerilla Tristana - RM 15", "subtitle"=> "Weirdy weird tristana skin , yucks !", 
+                    "image_url" => " https://f1a94e95.ngrok.io/botcommerce2/files/i3.jpg", "item_url" => "http://BotAhead.com/", 'buttons' => $buttons3);    
+$elements[3] = array("title" => "Riot Girl Tristana - RM 10", "subtitle"=> "Not much difference from the classic one, but it's a fking female !", 
+                    "image_url" => " https://f1a94e95.ngrok.io/botcommerce2/files/i4.jpg", "item_url" => "http://BotAhead.com/", 'buttons' => $buttons4);    
+
+
+
+$sendmsg = new stdClass();
+$sendmsg->recipient->id = $senderid;
+$sendmsg->message->attachment->type = 'template';
+$sendmsg->message->attachment->payload->template_type = 'generic';
+$sendmsg->message->attachment->payload->elements = $elements;  
+$sendmsg->message->quick_replies = $reply;    
+
+
+$res = send_curl_data_tofb($sendmsg);
+    
+$fp = fopen("logfbdata.txt","a");
+if( $fp == false ){ echo "file creation failed";}
+else{fwrite($fp,print_r($res, true)); fclose($fp);}
+}
+
+//Response to Carousel
+//#########################################
+
+
+
+
+//Response to Carousel Cart
+//#########################################
+
+function sendtemplate_carouselcart($senderid)
+{
+global $apiurl, $graphapiurl, $page_access_token;
+
+$reply[] = array("content_type" => "text", "title"=> "CheckOut", "payload" => "Check_Out");
+$reply[] = array("content_type" => "text", "title"=> "Show Products", "payload" => "Show_Products");
+
+    
+$buttons1[] = array("type" => "postback", "title"=> "Delete from cart", "payload" => "Remove_From_Cart_Product1");
+
+
+$buttons2[] = array("type" => "postback", "title"=> "Delete from cart", "payload" => "Remove_From_Cart_Product2");
+
+
+$buttons3[] = array("type" => "postback", "title"=> "Delete from cart", "payload" => "Remove_From_Cart_Product3");
+
+
+$buttons4[] = array("type" => "postback", "title"=> "Delete from cart", "payload" => "Remove_From_Cart_Product4");
+
+
+
+$elements[0] = array("title" => "Classic Tristana - FREE", "subtitle"=> "The ugliest but classic tristana!", 
+                    "image_url" => " https://f1a94e95.ngrok.io/botcommerce2/files/i1.jpg", "item_url" => "http://BotAhead.com/", 'buttons' => $buttons1);    
+$elements[1] = array("title" => "Bucaneer Tristana - RM 25", "subtitle"=> "Tristana with canon , who will not love it ?", 
+                    "image_url" => " https://f1a94e95.ngrok.io/botcommerce2/files/i2.jpg", "item_url" => "http://BotAhead.com/", 'buttons' => $buttons2);    
+$elements[2] = array("title" => "Guerilla Tristana - RM 15", "subtitle"=> "Weirdy weird tristana skin , yucks !", 
+                    "image_url" => " https://f1a94e95.ngrok.io/botcommerce2/files/i3.jpg", "item_url" => "http://BotAhead.com/", 'buttons' => $buttons3);    
+$elements[3] = array("title" => "Riot Girl Tristana - RM 10", "subtitle"=> "Not much difference from the classic one, but it's a fking female !", 
+                    "image_url" => " https://f1a94e95.ngrok.io/botcommerce2/files/i4.jpg", "item_url" => "http://BotAhead.com/", 'buttons' => $buttons4);    
+
+$temp1 = $elements[0];
+$temp2 = $elements[1];
+$temp3 = $elements[2];
+$temp4 = $elements[3];
+
+if(count($inCart1) == 0)
+    {    
+    $inCart1 = DB::queryFirstField("select cart1 from fbprofile WHERE fid=%s", $senderid);
+
+        if($inCart1 !== "1" )
+            {
+                unset($elements[0]);
                 
+            }
+        
+    }
+if(count($inCart2) == 0)
+    {    
+    $inCart2 = DB::queryFirstField("select cart2 from fbprofile WHERE fid=%s", $senderid);
+
+        if($inCart2 !== "1" )
+            {
+                unset($elements[1]);
+                
+            }
+        
+    }
+if(count($inCart3) == 0)
+    {    
+    $inCart3 = DB::queryFirstField("select cart3 from fbprofile WHERE fid=%s", $senderid);
+
+        if($inCart3 !== "1" )
+            {
+                unset($elements[2]);
+                
+            }
+        
+    }
+if(count($inCart4) == 0)
+    {    
+    $inCart4 = DB::queryFirstField("select cart4 from fbprofile WHERE fid=%s", $senderid);
+
+        if($inCart4 !== "1" )
+            {
+                unset($elements[3]);
+                
+            }
+        
+    }
+
+if(empty($elements)){
+    sendtemplate_quickreplytextempty($senderid);
+}
+
 $sendmsg = new stdClass();
 $sendmsg->recipient->id = $senderid;
 $sendmsg->message->attachment->type = 'template';
@@ -529,7 +706,7 @@ else{fwrite($fp,print_r($res, true)); fclose($fp);}
 
 function fn_command_processpostback($senderid, $cmdtext)
 {
-global $apiurl, $graphapiurl, $page_access_token, $profiledata;
+global $apiurl, $graphapiurl, $page_access_token, $profiledata,$cart1,$cart2,$cart3,$cart4;
 
 if(count($profiledata) == 0)
 {    
@@ -552,6 +729,98 @@ elseif($cmdtext == "Start_Again"){
     send_text_message($senderid, "Hi ".$profiledata["first_name"]."! I am botbot , I am here to show you how can you sell products in a chat !");
     sendtemplate_quickreplytext($senderid);  
 }
+elseif($cmdtext == "Add_To_Cart_Product1"){
+    if(count($cart1) == 0)
+    {    
+    $cart1 = DB::queryFirstField("select cart1 from fbprofile WHERE fid=%s", $senderid);
+
+        if($cart1 !== "1" )
+            {
+                DB::update('fbprofile', array(
+                            'cart1' => '1'
+                            ), "fid=%s", $senderid);  
+                send_text_message($senderid, "Product1 has been added"); 
+                sendtemplate_carousel($senderid);
+            }else{
+                send_text_message($senderid, "The product is already in cart");
+                sendtemplate_carousel($senderid); 
+            }
+        
+    }
+}
+elseif($cmdtext == "Add_To_Cart_Product2"){
+    if(count($cart2) == 0)
+    {    
+    $cart2 = DB::queryFirstField("select cart2 from fbprofile WHERE fid=%s", $senderid);
+
+        if($cart2 !== "1" )
+            {
+                DB::update('fbprofile', array(
+                            'cart2' => '1'
+                            ), "fid=%s", $senderid);  
+                send_text_message($senderid, "Product2 has been added"); 
+                sendtemplate_carousel($senderid);
+            }else{
+                send_text_message($senderid, "The product is already in cart"); 
+                sendtemplate_carousel($senderid);
+            }
+        
+    }    
+}
+elseif($cmdtext == "Add_To_Cart_Product3"){
+    if(count($cart3) == 0)
+    {    
+    $cart3 = DB::queryFirstField("select cart3 from fbprofile WHERE fid=%s", $senderid);
+
+        if($cart3 !== "1" )
+            {
+                DB::update('fbprofile', array(
+                            'cart3' => '1'
+                            ), "fid=%s", $senderid);  
+                send_text_message($senderid, "Product3 has been added"); 
+                sendtemplate_carousel($senderid);
+            }else{
+                send_text_message($senderid, "The product is already in cart"); 
+                sendtemplate_carousel($senderid);
+            }
+        
+    }        
+}
+elseif($cmdtext == "Add_To_Cart_Product4"){
+    if(count($cart4) == 0)
+    {    
+    $cart4 = DB::queryFirstField("select cart4 from fbprofile WHERE fid=%s", $senderid);
+
+        if($cart4 !== "1" )
+            {
+                DB::update('fbprofile', array(
+                            'cart4' => '1'
+                            ), "fid=%s", $senderid);  
+                send_text_message($senderid, "Product4 has been added"); 
+                sendtemplate_carousel($senderid);
+            }else{
+                send_text_message($senderid, "The product is already in cart");
+                sendtemplate_carousel($senderid); 
+            }
+        
+    }          
+}
+elseif($cmdtext == "Remove_From_Cart_Product1"){
+    DB::delete('cart1', "fid=%s", $senderid);
+    sendtemplate_carouselcart($senderid);    
+} 
+elseif($cmdtext == "Remove_From_Cart_Product2"){
+    DB::delete('cart2', "fid=%s", $senderid);
+    sendtemplate_carouselcart($senderid);     
+} 
+elseif($cmdtext == "Remove_From_Cart_Product3"){
+    DB::delete('cart3', "fid=%s", $senderid);
+    sendtemplate_carouselcart($senderid);     
+} 
+elseif($cmdtext == "Remove_From_Cart_Product4"){
+    DB::delete('cart4', "fid=%s", $senderid); 
+    sendtemplate_carouselcart($senderid);    
+} 
 elseif($cmdtext == "Bot_Help"){
     send_text_message($senderid, "These are the available commands for Help");    
 } 
